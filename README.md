@@ -103,7 +103,7 @@ output0:
 
 The config file contains all the information needed to run the prediction script. The
 configuration flags are explained below:
-```json
+```json5
 {
     // required
     // Prediction model. Currently supports:
