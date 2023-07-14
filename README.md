@@ -66,6 +66,9 @@ Follow the steps here to export the model to ONNX: https://github.com/WongKinYiu
 
 We recommend to export including NMS.
 
+Default config: [configs/wongkinyiu_yolov7.json](configs/wongkinyiu_yolov7.json)
+
+
 **Inputs**
 ```
 images:
@@ -85,6 +88,8 @@ Follow the steps here to export the model to ONNX: https://github.com/ultralytic
 
 The exported model does **not** include NMS. Remember to add nms postprocessing to the
 [config](#config) file!
+
+Default config: [configs/ultralytics_ultralytics_yolov8.json](configs/ultralytics_ultralytics_yolov8.json)
 
 **Inputs**
 ```
