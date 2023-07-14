@@ -57,8 +57,9 @@ subdirectory with the current timestamp in the output directory.
 ### Models
 
 Any ONNX model that has the same input and output nodes as one of the supported models
-can be used. Note that Lightly automatically infers the input image size from the model.
+can be used. Lightly automatically infers the input image size from the model.
 
+> Note: Only object detection models are supported for now!
 
 #### `WongKinYiu/yolov7`
 
@@ -137,6 +138,7 @@ configuration flags are explained below:
         // Prediction schema described in https://docs.lightly.ai/docs/prediction-format#prediction-schema
         // Must contain all categories from the model.
         "schema": {
+            // Task type, must be "object-detection" for now.
             "task_type": "object-detection",
             "categories": [
                 {
