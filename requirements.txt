@@ -1,0 +1,6 @@
+matplotlib
+onnxruntime-gpu
+Pillow
+torch
+torchvision
+tqdm
